@@ -8,7 +8,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 145px;
+  padding: 155px;
   color: white;
 }
 header h3 {
@@ -38,6 +38,41 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
 }
+main {
+  color: #272044;
+}
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin: 90px 120px;
+}
+.introduction img {
+  width: 100%;
+}
+.introduction .about-bergen {
+  align-items: center;
+}
+.introduction h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  opacity: 0.3;
+  line-height: 24px;
+  margin: 0;
+}
+.introduction h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 10px;
+}
+.introduction p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 24px;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -48,7 +83,7 @@ footer {
   background-position: bottom;
   background-repeat: no-repeat;
   color: white;
-  padding: 40px 50px;
+  padding: 60px 80px;
 }
 .footer-container {
   display: grid;
@@ -91,6 +126,26 @@ footer ul {
   header a {
     font-size: 8px;
     padding: 10px 16px;
+  }
+  .introduction {
+    margin: 50px 30px;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  .introduction h2 {
+    font-size: 8px;
+    line-height: 1;
+  }
+  .introduction h3 {
+    font-size: 14px;
+    line-height: 1;
+  }
+  .introduction .upper-paragraph {
+    display: none;
+  }
+  .introduction p {
+    font-size: 9px;
+    line-height: 1.5;
   }
   footer {
     padding: 18px 24px;
