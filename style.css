@@ -52,7 +52,7 @@ footer {
 }
 .footer-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 2.5fr 2.5fr;
   grid-gap: 20px;
 }
 footer h3 {
