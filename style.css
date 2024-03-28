@@ -99,11 +99,11 @@ footer ul {
     grid-template-columns: 1.5fr 2fr 2fr;
   }
   footer h3 {
-    font-size: 12px;
+    font-size: 10px;
   }
   footer p,
   footer a {
-    font-size: 10px;
+    font-size: 8px;
   }
   footer li {
     line-height: 12px;
