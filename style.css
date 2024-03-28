@@ -46,32 +46,30 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   margin: 90px 120px;
+    align-items: center;
 }
 .introduction img {
   width: 100%;
-}
-.introduction .about-bergen {
-  align-items: center;
 }
 .introduction h2 {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 5px;
   opacity: 0.3;
-  line-height: 24px;
+  line-height: 1;
   margin: 0;
 }
 .introduction h3 {
   font-size: 40px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 1.5;
   margin-top: 10px;
 }
 .introduction p {
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
-  line-height: 24px;
+  line-height: 1.5;
 }
 footer {
   background-image: linear-gradient(
@@ -134,7 +132,6 @@ footer ul {
   }
   .introduction h2 {
     font-size: 8px;
-    line-height: 1;
   }
   .introduction h3 {
     font-size: 14px;
@@ -145,7 +142,6 @@ footer ul {
   }
   .introduction p {
     font-size: 9px;
-    line-height: 1.5;
   }
   footer {
     padding: 18px 24px;
