@@ -21,7 +21,7 @@ header h1 {
   font-size: 96px;
   line-height: 80px;
   font-weight: 700;
-  margin: 20px;
+  margin: 20px 0;
 }
 header h2 {
   font-size: 40px;
@@ -37,4 +37,23 @@ header a {
   font-weight: 700;
   letter-spacing: 3px;
   text-decoration: none;
+}
+@media (max-width: 900px) {
+    header {
+        padding: 60px 0;
+    }
+    header h3 {
+        font-size: 14px;
+    }
+    header h1 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header a {
+        font-size: 8px;
+        padding: 10px 16px;
+    }
 }
