@@ -1,3 +1,40 @@
-h1 {
-    font-family: "Poppins", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(/imgs/bergen.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 145px;
+  color: white;
+}
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header h1 {
+  font-size: 96px;
+  line-height: 80px;
+  font-weight: 700;
+  margin: 20px;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+header a {
+  padding: 16px 32px;
+  background-color: white;
+  color: #272044;
+  border: none;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: none;
 }
