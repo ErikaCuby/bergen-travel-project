@@ -19,9 +19,9 @@ header h3 {
 }
 header h1 {
   font-size: 96px;
-  line-height: 80px;
+  line-height: 1.3;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 header h2 {
   font-size: 40px;
@@ -46,7 +46,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   margin: 90px 120px;
-    align-items: center;
+  align-items: center;
 }
 .introduction img {
   width: 100%;
@@ -104,8 +104,54 @@ footer ul {
   list-style-type: none;
   padding: 0;
 }
+@media (max-width: 900px) {
+  header h3 {
+    font-size: 20px;
+  }
+  header h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    line-height: 1;
+  }
+  header h2 {
+    font-size: 26px;
+  }
+  header a {
+    font-size: 10px;
+    padding: 12px 20px;
+  }
+.introduction {
+    margin: 70px 60px;
+}
+  .introduction h2 {
+    font-size: 10px;
+  }
+  .introduction h3 {
+    font-size: 26px;
+    line-height: 1;
+  }
+  .hidden-paragraph {
+    display: none;
+  }
+  .introduction p {
+    font-size: 12px;
+  }
+    .footer-container {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+    footer h3 {
+    font-size: 16px;
+  }
+  footer p,
+  footer a {
+    font-size: 12px;
+  }
+  footer li {
+    line-height: 1;
+  }
+}
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
   header {
     padding: 60px 0;
   }
@@ -157,6 +203,6 @@ footer ul {
     font-size: 8px;
   }
   footer li {
-    line-height: 12px;
+    line-height: 0.8;
   }
 }
