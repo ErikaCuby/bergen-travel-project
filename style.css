@@ -87,7 +87,7 @@ footer {
 }
 .footer-container {
   display: grid;
-  grid-template-columns: 1fr 2.5fr 2.5fr;
+  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 20px;
 }
 footer h3 {
@@ -107,7 +107,7 @@ footer ul {
   padding: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   header {
     padding: 60px 0;
   }
@@ -140,7 +140,7 @@ footer ul {
     font-size: 14px;
     line-height: 1;
   }
-  .introduction .hidden-paragraph {
+  .hidden-paragraph {
     display: none;
   }
   .introduction p {
