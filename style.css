@@ -38,22 +38,74 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
 }
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url(/imgs/footer.webp);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px 50px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+footer p,
+footer a {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (max-width: 900px) {
-    header {
-        padding: 60px 0;
-    }
-    header h3 {
-        font-size: 14px;
-    }
-    header h1 {
-        font-size: 30px;
-        font-weight: 900;
-    }
-    header h2 {
-        font-size: 20px;
-    }
-    header a {
-        font-size: 8px;
-        padding: 10px 16px;
-    }
+  header {
+    padding: 60px 0;
+  }
+  header h3 {
+    font-size: 14px;
+  }
+  header h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  header h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  header a {
+    font-size: 8px;
+    padding: 10px 16px;
+  }
+  footer {
+    padding: 18px 24px;
+  }
+  .footer-container {
+    grid-template-columns: 1.5fr 2fr 2fr;
+  }
+  footer h3 {
+    font-size: 12px;
+  }
+  footer p,
+  footer a {
+    font-size: 10px;
+  }
+  footer li {
+    line-height: 12px;
+  }
 }
