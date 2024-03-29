@@ -26,9 +26,11 @@ header h1 {
   font-weight: 700;
   margin: 15px 0;
 }
-header h2 {
+header h5 {
   font-size: 40px;
   font-weight: 400;
+  opacity: 1;
+  margin: 0 0 30px;
 }
 header a {
   padding: 16px 32px;
@@ -124,8 +126,9 @@ footer ul {
     margin: 10px 0;
     line-height: 1;
   }
-  header h2 {
+  header h5 {
     font-size: 26px;
+    margin: 0 0 15px;
   }
   header a {
     font-size: 10px;
@@ -177,10 +180,9 @@ footer ul {
     font-weight: 900;
     margin-bottom: 0;
   }
-  header h2 {
+  header h5 {
     font-size: 18px;
-    margin-top: 0;
-  }
+margin: 6px 0 8px;  }
   header a {
     font-size: 8px;
     padding: 10px 16px;
