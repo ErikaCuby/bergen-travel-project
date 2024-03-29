@@ -46,18 +46,17 @@ header a {
 main {
   color: #272044;
 }
+section {
+  margin: 90px 120px;
+}
 .introduction {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-  margin: 90px 120px;
   align-items: center;
 }
 img {
   width: 100%;
-}
-.gallery {
-  margin: 90px 120px;
 }
 .gallery-container {
   display: grid;
@@ -134,7 +133,7 @@ footer ul {
     font-size: 10px;
     padding: 12px 20px;
   }
-  .introduction {
+  section {
     margin: 70px 60px;
   }
   h2 {
@@ -149,9 +148,6 @@ footer ul {
   }
   p {
     font-size: 12px;
-  }
-  .gallery {
-    margin: 70px 60px;
   }
   .footer-container {
     grid-template-columns: 1fr 2fr 2fr;
@@ -182,13 +178,16 @@ footer ul {
   }
   header h5 {
     font-size: 18px;
-margin: 6px 0 8px;  }
+    margin: 6px 0 8px;
+  }
   header a {
     font-size: 8px;
     padding: 10px 16px;
   }
-  .introduction {
+  section {
     margin: 50px 30px;
+  }
+  .introduction {
     grid-gap: 20px;
     align-items: center;
   }
@@ -204,9 +203,6 @@ margin: 6px 0 8px;  }
   }
   p {
     font-size: 9px;
-  }
-  .gallery {
-    margin: 50px 30px;
   }
   .gallery-container {
     grid-template-columns: 1fr 1fr;
