@@ -60,7 +60,7 @@ img {
 }
 .background-color {
   background-color: #f8f8f8;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .card-columns {
   display: grid;
@@ -70,6 +70,10 @@ img {
 .card-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 .card-body {
   background-color: white;
@@ -85,7 +89,7 @@ img {
 }
 .card-body a {
   padding: 16px 32px;
-  background-color: #462cb2;
+  background-color: #1f466f;
   color: white;
   border: none;
   font-size: 14px;
@@ -255,15 +259,18 @@ footer ul {
   p {
     font-size: 9px;
   }
-    .background-color {
+  .background-color {
     padding: 5px 0;
+  }
+  section.second {
+    margin: 30px 30px;
   }
   .card-columns {
     grid-template-columns: 1fr;
-    grid-gap: 25px;
+    grid-gap: 30px;
   }
   .card-body h5 {
-    font-size: 12px;
+    font-size: 15px;
     margin: 4px 0;
   }
   .card-body h6 {
@@ -271,8 +278,8 @@ footer ul {
   }
   .card-body a {
     font-size: 8px;
-      padding: 7px 32px;
-
+    padding: 7px 32px;
+    background-color: #f36974;
   }
   .gallery-container {
     grid-template-columns: 1fr 1fr;
